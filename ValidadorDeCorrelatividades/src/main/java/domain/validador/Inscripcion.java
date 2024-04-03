@@ -5,8 +5,10 @@ import java.util.List;
 public class Inscripcion {
 
     private List<Materia> materiasAInscribirse;
+
     private Alumno alumnoAInscribirse;
-    public boolean aprobada(){ //Metodo para verificar si la inscripcion se aprueba o no
+
+    public Boolean aprobada(){ //Metodo para verificar si la inscripcion se aprueba o no
         return this.materiasAInscribirse.stream().allMatch(materia -> materia.correlativasAprobadas(this.alumnoAInscribirse));
     }
 
@@ -26,4 +28,3 @@ public class Inscripcion {
         this.alumnoAInscribirse = alumnoAInscribirse;
     }
 }
-

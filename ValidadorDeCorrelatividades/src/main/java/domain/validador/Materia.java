@@ -1,6 +1,5 @@
 package domain.validador;
 
-import javax.swing.text.StyledEditorKit;
 import java.util.List;
 
 public class Materia {
@@ -18,3 +17,4 @@ public class Materia {
         this.correlativas = correlativas;
     }
 }
+
