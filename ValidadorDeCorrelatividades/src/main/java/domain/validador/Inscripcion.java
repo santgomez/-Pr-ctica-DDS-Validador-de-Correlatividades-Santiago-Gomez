@@ -3,7 +3,7 @@ package domain.validador;
 import java.util.List;
 
 public class Inscripcion {
-
+    private List
     private List<Materia> materiasAInscribirse;
 
     private Alumno alumnoAInscribirse;
